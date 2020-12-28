@@ -124,7 +124,7 @@ export default function App() {
         <Suspense fallback={null}>
           <HTMLContent
             domContent={domContent}
-            bgColor="#f15946"
+            bgColor="#C8CDD3"
             modelPath={Scene}
             positionX={130}
             positionY={1050}
@@ -140,7 +140,7 @@ export default function App() {
           ></HTMLContent>
           <HTMLContent
             domContent={domContent}
-            bgColor="#0E0E0E"
+            bgColor="#44809D"
             modelPath={Scene3}
             positionX={130}
             positionY={-750}
@@ -148,7 +148,7 @@ export default function App() {
           ></HTMLContent>
           <HTMLContent
             domContent={domContent}
-            bgColor="#C8CDD3"
+            bgColor="#ffffff"
             modelPath={Scene4}
             positionX={-130}
             positionY={-1650}

@@ -1,14 +1,24 @@
 * {
   box-sizing: border-box;
+  -ms-overflow-style: none;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+.element {
+  overflow: -moz-scrollbars-none;
+}
+.element {
+  -ms-overflow-style: none;
+}
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #f15946;
+  background: #c8cdd3;
   transition: 0.4s ease-in-out;
 }
 
@@ -19,7 +29,6 @@ body,
   height: 100%;
   margin: 0;
   padding: 0;
-  overflow: hidden;
 }
 
 .scrollArea {
