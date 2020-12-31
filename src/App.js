@@ -3,6 +3,7 @@ import "./App.scss";
 
 //Components
 import Header from "./components/header";
+import ScrollButton from "./components/ScrollButton";
 import { Section } from "./components/section";
 
 // Page State
@@ -113,7 +114,9 @@ export default function App() {
   return (
     <>
       <Header />
+      <ScrollButton />
       {/* R3F Canvas */}
+
       <Canvas
         concurrent
         colorManagement
